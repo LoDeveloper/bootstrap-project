@@ -100,6 +100,11 @@ body {
     }
 }
 
+.btn-outline-info {
+    color: #ba57c9;
+    border: 1px solid #ba57c9;
+}
+
 /*Contact form*/
 
 form {
