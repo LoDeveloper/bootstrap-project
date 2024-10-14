@@ -7,6 +7,7 @@
 body {
     height: 100vh;
     background-color:#ba57c9;
+    font-family: "Kanit", sans-serif;
 }
 
 
@@ -93,6 +94,10 @@ body {
             &:hover {
                 transform: scale(1.1);
             }
+    
+    p {
+     font-weight: 400;
+    }
 }
 
 /*Contact form*/
@@ -148,13 +153,20 @@ footer {
     }
 
     .footer-links {
-        display: inline-block;
+        display: flex;
         list-style: none;
-        text-decoration: none;'
+        text-decoration: none;
+        gap: 20px;
+        transition: 0.2s;
 
         li a {
             list-style: none;
             text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
