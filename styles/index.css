@@ -4,14 +4,30 @@
     margin: 0;
 }
 
+body {
+    height: 100vh;
+    background-color: brown;
+}
+
+
 
 /*cards section*/
 
-.col {
-    padding: 50px;
+
+.card-section {
+    padding-top: 50px;
+
+        h2 {
+            color: #fff;
+            text-align: center;
+            font-size: 36px;
+            padding: 20px;
+        }
 }
 
-.card img {
-    width: 30%;
-    height: 30%;
+
+
+
+.h-100 {
+    background-color: aquamarine;
 }
