@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    background-color: brown;
+    background-color:#ba57c9;
 }
 
 
@@ -26,8 +26,45 @@ body {
 }
 
 
-
-
 .h-100 {
-    background-color: aquamarine;
+    background-color: #0a0a0a;
+    color: #fff;
+    width: 90%;
+    border: none;
+    transition: 0.3s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+}
+
+/*Contact form*/
+
+form {
+    margin-top: 100px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    color: #fff;
+    background-color: #0a0a0a;
+    border-radius: 10px;
+
+    .form-title {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .btn-primary {
+        background-color: #ba57c9;
+        border: none;
+        width: 10%;
+        transition: 0.3s;
+        box-shadow: rgba(0,0,0,0.86);
+
+                &:hover{
+                    background-color: #3f9641;
+                }
+
+    }
 }
